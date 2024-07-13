@@ -15,3 +15,7 @@ const RemoveDuplicateArray=(x)=>{
 }
 const result = RemoveDuplicateArray(x)
 console.log(result)
+function removeDuplicates(arr) {
+    return [...new Set(arr)];
+}
+
