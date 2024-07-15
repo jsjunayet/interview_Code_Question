@@ -12,3 +12,7 @@ const reverseresult1 = (str)=>{
 }
 const result = reverseresult1(reverse)
 console.log(result)
+function reverseInteger(num) {
+    const reversed = parseInt(num.toString().split('').reverse().join('')) * Math.sign(num);
+    return reversed;
+}
